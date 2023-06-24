@@ -1,0 +1,9 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android -B /Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug
+-- Configuring done
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+log-lib
+    linked by target "native_opencv" in directory /Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android
+
+-- Generating done
+CMake Generate step failed.  Build files cannot be regenerated correctly.

@@ -1,0 +1,3 @@
+/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/CMakeFiles/native_opencv.dir
+/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/CMakeFiles/rebuild_cache.dir

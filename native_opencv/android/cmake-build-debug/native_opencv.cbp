@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="native_opencv"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="native_opencv">
+				<Option output="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/libnative_opencv.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/."/>
+					<Add directory="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/../include"/>
+					<Add directory="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/../include/opencv2"/>
+					<Add directory="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/../include/opencv2/core"/>
+					<Add directory="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/../sources"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/Makefile&quot;  VERBOSE=1 native_opencv"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="native_opencv/fast">
+				<Option output="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/libnative_opencv.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/."/>
+					<Add directory="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/../include"/>
+					<Add directory="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/../include/opencv2"/>
+					<Add directory="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/../include/opencv2/core"/>
+					<Add directory="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/../sources"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/14.0.3/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/Makefile&quot;  VERBOSE=1 native_opencv/fast"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j10 -f &quot;/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j10 -f &quot;/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j10 -f &quot;/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j10 -f &quot;/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/sources/DetectChars.cpp">
+			<Option target="native_opencv"/>
+		</Unit>
+		<Unit filename="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/sources/DetectChars.h">
+			<Option target="native_opencv"/>
+		</Unit>
+		<Unit filename="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/sources/DetectPlates.cpp">
+			<Option target="native_opencv"/>
+		</Unit>
+		<Unit filename="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/sources/DetectPlates.h">
+			<Option target="native_opencv"/>
+		</Unit>
+		<Unit filename="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/sources/NativeOpencvPlugin.cpp">
+			<Option target="native_opencv"/>
+		</Unit>
+		<Unit filename="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/sources/NativeOpencvPlugin.h">
+			<Option target="native_opencv"/>
+		</Unit>
+		<Unit filename="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/sources/PossibleChar.cpp">
+			<Option target="native_opencv"/>
+		</Unit>
+		<Unit filename="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/sources/PossibleChar.h">
+			<Option target="native_opencv"/>
+		</Unit>
+		<Unit filename="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/sources/PossiblePlate.cpp">
+			<Option target="native_opencv"/>
+		</Unit>
+		<Unit filename="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/sources/PossiblePlate.h">
+			<Option target="native_opencv"/>
+		</Unit>
+		<Unit filename="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/sources/Preprocess.cpp">
+			<Option target="native_opencv"/>
+		</Unit>
+		<Unit filename="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/sources/Preprocess.h">
+			<Option target="native_opencv"/>
+		</Unit>
+		<Unit filename="/Users/starchykov/Projects/Me/flutter_ffi/native_opencv/android/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
